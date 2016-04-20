@@ -1,0 +1,5 @@
+# Routes
+# ~~~~
+
+GET     /                           controllers.UserController.defaultRedirect
+GET     /users/:userId              controllers.UserController.mergeUserAndPosts(userId: String)
